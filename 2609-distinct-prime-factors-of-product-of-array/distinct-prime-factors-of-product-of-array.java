@@ -9,7 +9,7 @@ class Solution {
                 }
             }
             if (num > 1) {
-                prime.add(num); 
+                prime.add(num); //ensures you don't miss prime numbers that are greater than √n
             }
         }
         return prime.size();
